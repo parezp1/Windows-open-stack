@@ -1,0 +1,11 @@
+setx OS_IDENTITY_API_VERSION 3
+setx OS_AUTH_URL http://172.28.112.120:35357/v3
+setx OS_PROJECT_DOMAIN_NAME Default
+setx OS_USER_DOMAIN_NAME Default
+setx OS_PROJECT_NAME admin
+setx OS_TENANT_NAME admin
+setx OS_USERNAME admin
+setx OS_PASSWORD workshop
+setx OS_REGION_NAME RegionOne
+setx OS_INTERFACE internal
+setx OS_ENDPOINT_TYPE internal
