@@ -1,0 +1,29 @@
+neutron agent-list - vypis agentu neutron
+Restart-Service nova* - restart servisu Nova
+
+OpenVSwitch :
+ovs-vsctl show
+ovs-vsctl.exe del-port br-ex VSwitch - odebrani portu z bridge
+ovs-vsctl.exe add-port br-ex NIC2 - pridani sitove karty na bridge
+ovs-vsctl.exe del-port br-ex Vswitch - Pridani virtualniho switche Vswitch na bridge
+ 
+Get-NetAdapter - Vypis vsech NIC adapteru na serveru
+
+Parametry portu v powershellu:
+ovs-dpctl show
+system@ovs-system:
+        lookups: hit:16780749 missed:1789153 lost:0
+        flows: 13
+        port 1: vxlan_sys_4789 (vxlan)
+        port 2: genev_sys_6081 (geneve)
+        port 3: br-int (internal)
+        port 4: br-tun (internal)
+        port 5: br-ex (internal)
+        port 6: NIC2
+        port 7: d24535de-4591-4155-bb95-880559ea773f
+        port 8: ac3ca3ad-c91f-4642-b0c6-a80aa10b1088ovs-dsctl show
+
+Get-VMByOVSPort -OVSPortName  "ac3ca3ad-c91f-4642-b0c6-a80aa10b1088"
+
+Spusteni konzole :
+Get-VMConsole instance-00000057 - spusteni konzole pro zadanou instanci
