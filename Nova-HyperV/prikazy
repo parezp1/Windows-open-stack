@@ -21,7 +21,7 @@ system@ovs-system:
         port 5: br-ex (internal)
         port 6: NIC2
         port 7: d24535de-4591-4155-bb95-880559ea773f
-        port 8: ac3ca3ad-c91f-4642-b0c6-a80aa10b1088ovs-dsctl show
+        port 8: ac3ca3ad-c91f-4642-b0c6-a80aa10b1088
 
 Get-VMByOVSPort -OVSPortName  "ac3ca3ad-c91f-4642-b0c6-a80aa10b1088"
 
